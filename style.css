@@ -166,4 +166,37 @@ color: red;
  background-color: red;
  color: blue;
 }
+/* STYLING LINK */
+/* a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+} */
 
+/* RESPONDING TO USER */
+/* :hover */
+/* input.bott:hover{
+    background-color: rgb(17, 255, 0);
+ /* active */
+/* }
+input.bott:active{
+    background-color:red; */
+
+/* input.bott:focus{
+  background-color: red;
+}
+input.textBox:focus{
+    background-color: blue;
+} */
+
+
+/* attributes selector */
+/* h1[name]{
+    color: red;
+
+} */
+/* equlitiy */
+/* h1[name-"hi"]{
+    colo
+} */
