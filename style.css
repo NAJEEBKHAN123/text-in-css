@@ -192,11 +192,70 @@ input.textBox:focus{
 
 
 /* attributes selector */
-/* h1[name]{
+/* Existance */
+/* h1[test]{
     color: red;
-
+}
+h1[name]{
+    color: aqua;
 } */
-/* equlitiy */
-/* h1[name-"hi"]{
-    colo
+/* equality */
+ /* h1[name="hello"]{
+    color: red;
+ }
+ p[page="para"]{
+    color: blue;
+ }
+ h2[own="add"]{
+    color: ;
+ }
+ h1[name="hello"]{
+    color: blue;
 } */
+/* SPACE */
+/* h1[name~="hello"]{
+    color: red;
+}
+h2[own~="add"]{
+    color: blue;
+} */
+/* PREFIX */
+/* h1[name^="hello"]{
+    color: red;
+}
+h2[own^="add"]{
+    color: green;
+}
+p[page^="para"]{
+    color: blue;
+} */
+/* SUBSTRING */
+/* h1[name*="hello"]{
+    color: red;
+}
+h2[own*="add"]{
+    color: aqua;
+} */
+/* SUFFIX */
+body{
+    background-color: darkslategray;
+}
+h1[name$="hello"]{
+    color: aqua;
+}
+a[href$="www.google.com"]{
+    color: red;
+}
+p[page$="para"]{
+    color: blue;
+    font-size: 50px;
+}
+h2[own$="add"]{
+    background-color: blue;
+}
+h1[name$="bye"]{
+    color: red;
+}
+h1[test]{
+    color: yellow;
+}
